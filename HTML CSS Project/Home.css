@@ -1,0 +1,115 @@
+body {
+    background-image: url(/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Patua One', cursive;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    height: 580px;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(#ffffff, #ffe6cc);
+    opacity: 0.95;
+}
+
+.item-1 {
+    height: 400px;
+    align-self: center;
+    width: auto;
+}
+
+.item-2 {
+    align-self: start;
+}
+
+.item-2 h1 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #1f1f14;
+}
+
+.box {
+    height: 35px;
+    width: 400px;
+    border-radius: 15px;
+    border: 0px solid #dcdcdc;
+    background-color: #dcdcdc;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #696969;
+}
+
+.item-2 label {
+    color: #505050;
+    margin-left: 2%;
+}
+
+.link {
+    margin-left: 125px;
+}
+
+.link:hover {
+    color: red;
+}
+
+.login {
+    background-color: red;
+    border-radius: 15px;
+    border: 5px solid red;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+}
+
+.login:hover {
+    color: black;
+    box-shadow: 1px 1px 7px 2px black;
+}
+
+.create {
+    color: darkred;
+    border: 5px solid #e6e600;
+    background-color: #e6e600;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.create:hover {
+    color: black;
+    box-shadow: 1px 1px 7px 2px black;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#profile {
+    top: 20px;
+    background-color: #0000cc;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registration.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <img class="item-1" src="/images/registration.png" alt="">
+
+        <div class="item-2">
+            <h1>Register Yourself !!</h1>
+            <form name="registration" class="registartion-form">
+              <table class="tb-1">
+                <tr>
+                  <td><label for="name">Full Name:</label></td>
+                  <td><input type="text" name="name" class="box" placeholder=""></td>
+                  <td><label for="email">Email:</label></td>
+                  <td><input type="email" name="email" class="box" placeholder=""></td>
+                </tr>
+
+                <tr>
+                  <td><label for="password">Create a Password:</label></td>
+                  <td><input type="password" name="password" class="box"></td>
+                  <td><label for="confirmpassword">Confirm Password:</label></td>
+                  <td><input type="password" name="password" class="box"></td>
+                </tr>
+                <tr>
+                  <td><label for="phoneNumber">Phone Number:</label></td>
+                  <td><input type="tel" name="phoneNumber" class="box" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required></td>
+                  <td><label for="country">Country:</label></td>
+                  <td><input type="country" name="phoneNumber" class="box"></td>
+                </tr>
+                <tr>
+                  <td><label for="gender">Gender:</label></td>
+                  <td><select name="gender" class="gender">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">other</option>
+                    </select></td>
+                    <td><label for="about">About:</label></td>
+                    <td><textarea name="about" class="big-box" placeholder="Write about yourself..."></textarea></td>
+                </tr>
+              </table><br><br>
+              <div class="submit">
+                <a href="profile.html" class="submit-button">Register Here</a>
+              </div>
+              
+            </form>
+          </div>
+    </div>
+</body>
+</html>

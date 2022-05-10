@@ -1,0 +1,115 @@
+body
+{
+    background-image: url(/images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position: center;
+    font-family:'Patua One', cursive;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width:1200px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(#f9f2ec, #d9b38c);
+    justify-content: space-around;
+    opacity: 0.95;
+}
+
+.item-1
+{
+    width: 300px;
+    align-self: center;
+    opacity: 1;
+}
+
+.item-2
+{
+    margin-right: 200px;
+    height: 600px;
+    width: 600px;
+}
+
+.item-2 h1
+{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.box
+{
+    height: 35px;
+    width: 250px;
+    border-radius: 15px;
+    border: 0px solid #c0c0c0;
+    background-color: #c0c0c0;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tb-1, tr,th,td
+{
+    border-collapse: collapse;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.gender
+{
+    height: 35px;
+    width: 250px;
+    border-radius: 15px;
+    border: 0px solid #c0c0c0;
+    background-color: #c0c0c0;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.big-box
+{
+    width: 250px;
+    border-radius: 15px;
+    border: 0px solid #c0c0c0;
+    background-color: #c0c0c0;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.submit
+{
+    position: relative;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+}
+
+.submit-button
+{
+    position: relative;
+    left: 62%;
+    color: black;
+    background-color: #ff0000;
+    border: 5px solid #ff0000;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+.submit-button:hover
+{
+    color: white;
+    box-shadow: 1px 1px 7px 2px black;
+}

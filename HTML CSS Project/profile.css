@@ -1,0 +1,44 @@
+body
+{
+    background-image: url(/images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family:'Patua One', cursive;
+}
+
+table, th, td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 1200px;
+    border-radius: 50px;
+    background-image: linear-gradient(#f9f2ec, #d9b38c);
+    opacity: 0.95;
+}
+
+.books
+{
+    align-self: center;
+    opacity: 1;
+}
+
+.wishlist
+{
+    align-self: center;
+    opacity: 1;
+}
